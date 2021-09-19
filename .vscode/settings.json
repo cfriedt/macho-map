@@ -1,0 +1,22 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/cfriedt/workspace/macho-map",
+            "binaryPath": "/Users/cfriedt/workspace/macho-map/foo",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "foo.h": "c",
+        "assert.h": "c",
+        "loader.h": "c",
+        "printk.h": "c",
+        "stdio.h": "c",
+        "zephyr.h": "c",
+        "soc.h": "c",
+        "debug.h": "c",
+        "*.inc": "c",
+        "stddef.h": "c"
+    },
+    "editor.formatOnSave": true
+}

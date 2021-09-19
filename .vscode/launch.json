@@ -1,0 +1,100 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        /*
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/foo",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+        */
+        /*
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "-n",
+                "${workspaceFolder}/foo.exe",
+            ],
+        },
+        */
+        /*
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            //"program": "${file}",
+            "program": "macho_map.py",
+            //"console": "externalTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "-i",
+                "${workspaceFolder}/foo",
+                "-o",
+                "${workspaceFolder}/foo.exe",
+            ],
+        },
+        */
+        /*
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            //"program": "${file}",
+            "program": "gen_map.py",
+            //"console": "externalTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "-i",
+                "${workspaceFolder}/macho_map",
+                "-o",
+                "${workspaceFolder}/macho_map.inc",
+            ],
+        },
+        */
+        /*
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            //"program": "${file}",
+            "program": "scripts/nm.py",
+            //"console": "externalTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+            },
+            "args": [
+                "${workspaceFolder}/foo",
+            ],
+        },
+        */
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/macho_map.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+        },
+    ]
+}

@@ -1,0 +1,9 @@
+# West YAML for MachO-Map
+#
+# Copyright (c) 2021, Friedt Professional Engineering Services, Inc
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
+build:
+  cmake: .
+  kconfig: Kconfig

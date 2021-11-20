@@ -1,0 +1,5 @@
+config MACHO_MAP
+	bool
+	help
+	  Set by cmake when CONFIG_NATIVE_POSIX is set and the host platform
+	  is macOS.
